@@ -1,0 +1,43 @@
+.dance{
+}
+.technology{
+    padding: 45px 5px;
+}
+
+.technology h2 {
+    font-size: 42px;
+    font-weight: 300;
+    font-family: "Gotham","Helvetica",sans-serif;
+    font-weight: 500;
+    letter-spacing: -.02em;
+    color: #00355A;   
+}
+.technology p1{
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #00355A;
+    line-height: 1.5;
+    font-family: "Gotham","Helvetica",sans-serif;
+}
+.dance .uk-card-body{
+    text-align: left;
+}
+.dance .uk-card-body h3{
+    font-size: 30px;
+    font-weight: normal;
+    color: #0590C8!important;
+}
+.dance .uk-card-body p{
+    font-size: 1.125rem!important;
+    font-family: "Gotham","Helvetica",sans-serif;
+    font-weight: normal;
+    color: #00355A;
+    line-height: 1.5;
+}
+.dance .uk-card-body p2{
+    font-size: 1.125rem;
+    font-family: "Gotham","Helvetica",sans-serif;
+    color: #00355A!important;
+    line-height: 1.5;
+    font-weight: 200;
+}

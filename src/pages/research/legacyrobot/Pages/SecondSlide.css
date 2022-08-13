@@ -1,0 +1,77 @@
+@media screen and (max-width: 2000px){
+
+.arm{
+    background: #F7F7F7;
+    padding-top: 100px;
+    height: 700px;
+}
+.hand{
+    margin-top: 50px;
+}
+
+.handle{
+    text-align: left;
+}
+.handle h1{
+    font-size: 4.375rem;
+
+    font-weight: 400;
+    color: #00355A;
+    line-height: 4.6875rem;
+    letter-spacing: -.03em;
+}
+.handle p1{
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #00355A;
+}
+ .arm .button1  {
+    margin-top: 2em;
+    display: inline-block;
+    padding: .80em 3em .75em 3em!important;
+    border: 2px solid #0590C8;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: .3s;
+    font-weight: 500;
+    line-height: 1;
+    color: cadetblue!important;
+}
+}
+@media screen and (max-width: 769px){
+
+    .handle h1{
+        font-size: 3.25rem;
+    line-height: 3.5rem;
+    }
+    .handle p1{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 426px){
+    .arm{
+        height: 900px;
+    }
+    .handle{
+        transform: translateY(-500px)
+    }
+    .hand{
+        transform: translateY(300px);
+    }
+}
+@media screen and (max-width: 376px){
+    .handle{
+        transform: translateY(-430px);
+    }
+    .hand{
+        transform: translateY(340px);
+    }
+
+}
+@media screen and (max-width: 321px){
+    .hand{
+        transform: translateY(340px);
+    }
+}

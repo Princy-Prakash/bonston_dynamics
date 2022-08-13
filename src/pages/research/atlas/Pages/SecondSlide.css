@@ -1,0 +1,85 @@
+@media screen and (max-width: 2000px){
+
+.square{
+    background-image: url('https://www.bostondynamics.com/sites/default/files/2021-08/video-feature-bg-min_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.dynamic{
+    display: block;
+    text-align: left;
+    transform: translateY(150px);
+}
+.dynamic h1 {
+    font-size: 50px;
+    line-height: 52px;
+    font-family: "Gotham","Helvetica",sans-serif!important;
+    letter-spacing: -.02em;
+    color: #00355A;
+    font-weight: 200;
+}
+.dynamic p1 {
+    font-size: 1.125rem;
+    font-family: "Gotham","Helvetica",sans-serif;
+    font-weight: normal;
+    color: #00355A;
+    line-height: 1.5;
+}
+.push{
+    transform: translateY(100px);
+}
+.push .uk-card{
+    box-shadow: none;
+}
+.push img{
+    width: 70%;
+    box-shadow: 0px 0px 35px 0px rgb(138 138 138 / 65);
+}
+.push h3{
+    font-weight: bold;
+    color: #0590C8!important;
+    font-size: 1rem;
+    font-family: "Gotham","Helvetica",sans-serif;
+    margin-left: 60px;
+}
+}
+@media screen and (max-width: 1025px){
+    .push{
+        transform: translateY(180px);
+    }
+    .push h3{
+        margin-left: 0px!important;
+
+    }
+}
+    @media screen and (max-width: 426px){
+
+    .dynamic {
+        transform: translateY(80px);
+
+    }
+    .dynamic  h1{
+       text-align: center;
+       font-size: 34px;
+    line-height: 38px;
+    font-weight: 200;
+    }
+.dynamic p1{
+    font-size: 1.2rem;
+    font-family: "Gotham","Helvetica",sans-serif;
+    font-weight: normal;
+    color: #00355A;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+.push{
+    transform: translateY(100px);
+}
+.push img{
+    width: 90%;
+}
+.push h3{
+    margin-left:-10px;
+}
+}

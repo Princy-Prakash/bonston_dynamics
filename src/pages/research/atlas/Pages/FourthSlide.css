@@ -1,0 +1,67 @@
+
+@media screen and (max-width: 2000px){
+
+.whole{
+background-image: url('https://www.bostondynamics.com/themes/custom/isovera/images/fading-grid-background-top.png');
+background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.lab .uk-height-medium{
+    height: 600px;
+}
+.cordination{
+    margin-top: 100px;
+}
+.cordination h1{
+    font-size: 42px;
+    color: #00355A;
+    font-weight: 300;
+    font-family: "Gotham","Helvetica",sans-serif;
+}
+.cordination p1{
+    font-weight: 500!important;
+    font-size: 1.125rem!important;
+    color: #00355A;
+    line-height: 1.5;
+    font-family: "Gotham","Helvetica",sans-serif;
+}
+.run ul li{
+    display: table-cell;
+    padding:  40px;
+}
+.run h2{
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    color: #0590C8;
+    
+}
+.run p2{
+    font-size: 1.5rem!important;
+    line-height: 1.2em;
+    font-weight: 300;
+    font-family: "Gotham","Helvetica",sans-serif;
+    color: #00355A!important;
+}
+}
+@media screen and (max-width: 769px){
+    .run ul li{
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 426px){
+    .run ul li{
+        padding: 0px;
+        display: block;
+    }
+    .lab .uk-height-medium{
+        height: 250px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+}

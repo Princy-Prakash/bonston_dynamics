@@ -1,0 +1,59 @@
+@media screen and (max-width: 2000px){
+
+.resource{
+    background: #f1f1f1;
+}
+.resource .uk-card{
+    height: 700px;
+}
+.heading{
+    margin-top: 50px;
+}
+.heading h1{
+    font-size: 50px;
+    line-height: 52px;
+    font-weight: 300;
+    color: #00355A;
+    font-family: "Gotham","Helvetica",sans-serif;
+}
+.resource .uk-card-body{
+    text-align: left;
+}
+.resource .uk-card-body p1{
+    font-size: 15px;
+    color: #a7a7a7;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.resource .uk-card-body h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00355A;
+    font-family: "Gotham","Helvetica",sans-serif;
+    line-height: 1.5;
+
+}
+.resource .uk-card-body p{
+    color: #00355A;
+    font-size: 1.125rem;
+    font-family: "Gotham","Helvetica",sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.resource .uk-card-body p3{
+    font-weight: 700;
+    font-size: 1.125rem;
+    font-family: "Gotham","Helvetica",sans-serif;
+    line-height: 1.5;
+    color: #0590C8;
+}
+}
+@media screen and (max-width: 426px){
+    .resource .uk-card{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .heading h1{
+        font-size: 36px;
+    }
+}

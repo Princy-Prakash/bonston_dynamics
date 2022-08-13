@@ -1,0 +1,116 @@
+@media screen and (max-width: 2000px){
+.robot1{
+    display: none;
+}
+.post1{
+    /* background-image: url('https://www.bostondynamics.com/sites/default/files/2021-09/solutions-hero-desktop.jpg'); */
+
+    width: 100%;
+}
+.back{
+    height: 100%;
+}
+.back .uk-height-medium{
+height: 600px;
+}
+button{
+    border-radius: 10px;
+    border: solid 2px  #ffffff!important;
+    display: inline-block;
+    padding: 5px 20px!important;
+    text-transform: uppercase;
+    transition: .3s;
+    text-decoration: none;
+    opacity: 1;
+    color: #ffffff;
+    border-color: #ffffff!important;
+    background-color: transparent;
+}
+
+.content h1{
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 300;
+    font-family: "Gotham","Helvetica",sans-serif;
+    line-height: 1.5;
+}
+.content{
+    transform: translatex(280px);
+    text-align: left;
+}
+.content p1{
+    color: #ffffff;
+    font-size: 20px;
+}
+[type=reset], [type=submit], button, html [type=button]{
+          border-radius: 10px;
+    border: solid 2px #335D7B!important;
+    display: inline-block;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    transition: .3s;
+    text-decoration: none;
+    color:ffffff;
+}
+
+
+}
+@media screen and (max-width: 1440px){
+    .imgs1ins{
+        background-image: url('https://www.bostondynamics.com/sites/default/files/2021-08/cta-atlas.jpg');
+        height: 900px!important;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: contain;
+    }
+}
+@media screen and (max-width: 769px){
+.back{
+    width: 100%;
+}
+.content{
+    transform: translatex(200px);
+  
+}
+}
+@media screen and (max-width: 426px){
+    .robot{
+        display: none;
+    }
+    .robot1{
+        display: block;
+    }
+    .content1{
+        text-align: left;
+        margin-left: 10px;
+    }
+.content1 h1{
+    color: #335D7B;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 1rem;
+    opacity: 1;
+}
+.content1 p1{
+    color: #335D7B;
+    font-size: 18px;
+    font-family: "Gotham","Helvetica",sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.btn button {
+    opacity: 1;
+    border-radius: 10px;
+    border: solid 2px #335D7B;
+    display: inline-block;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    transition: .3s;
+    text-decoration: none;
+    color: #335D7B;
+    font-size: 18px;
+}
+.robot1{
+    margin-bottom:40px;
+}
+}
