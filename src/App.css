@@ -1,4 +1,10 @@
 .App {
   text-align: center;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Lato:wght@100&family=Passions+Conflict&family=Roboto:ital@1&display=swap');
+body{
+   font-family: 'Abyssinica SIL', serif !important;
+    overflow-x: hidden !important; 
+}
  
